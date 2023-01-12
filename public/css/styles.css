@@ -1,0 +1,106 @@
+@charset "utf-8";
+/*
+Body degradado
+*/
+#prof{
+margin:0;
+min-height: 100vh;
+background-image: 
+url(public/Images/salon.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#prof:before
+{
+    content:"";
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top:0;
+    left:0;
+
+    background:linear-gradient(90deg,rgb(5, 139, 139) 70%,rgba(199, 194, 194, 0.842) 30%);
+    opacity: 0.5;
+    z-index:-1;
+}
+
+#al{
+    margin:0;
+    min-height: 100vh;
+    background-image: 
+    url(public/Images/pnwing.com.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    #al:before
+    {
+        content:"";
+        width: 100%;
+        min-height: 100vh;
+        position: absolute;
+        top:0;
+        left:0;
+    
+        background:linear-gradient(90deg,rgb(14, 102, 233) 70%,rgba(181, 184, 44, 0.842) 30%);
+        opacity: 0.5;
+        z-index:-1;
+    }
+
+
+/*
+Dana
+*/
+#cn {
+    text-align: center;
+    background-color: black;
+    color:beige;
+    padding: 20px;
+    }
+
+#cc{
+    background-color: lightgray;
+    width: 100%;
+    list-style-type: none ;
+    text-align: center;
+}
+
+#cv {
+    display: inline-flex;
+}
+
+#cb{
+
+text-decoration: none;
+color: ghostwhite;
+padding: 20px;
+width: 160px; 
+}
+
+nav li:hover {
+    background-color:rgba(237, 241, 170, 0.685) ;
+}
+.contenido {
+    display: flex;
+    margin: 60px;
+}
+.articulos{
+    width: 80%;
+    border-right: 3px solid black;
+}
+.secciones{
+    display: flex;
+    align-self: center;
+    padding: 40px;
+}

@@ -1,0 +1,42 @@
+CRITICAL - 2023-01-11 02:07:16 --> print_r() expects at most 2 arguments, 6 given
+in APPPATH\Controllers\Alumnos.php on line 21.
+ 1 APPPATH\Controllers\Alumnos.php(21): print_r('123', 'Messi', 'Alvarado', '2TM4', 'ass12@gmail.com', null)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Alumnos->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 15:55:05 --> Undefined variable $admins
+in APPPATH\Views\pagAdmin.php on line 27.
+ 1 APPPATH\Views\pagAdmin.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $admins', 'APPPATH\\Views\\pagAdmin.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pagAdmin.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pagAdmin', [], true)
+ 5 APPPATH\Controllers\Administradores.php(26): view('pagAdmin')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Administradores->validarAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administradores))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 22:00:14 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 196.
+ 1 SYSTEMPATH\BaseModel.php(525): CodeIgniter\Model->doFind(false, [...])
+ 2 APPPATH\Controllers\Administradores.php(30): CodeIgniter\BaseModel->find([...])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Administradores->validarAdmin()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administradores))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 22:02:38 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 196.
+ 1 SYSTEMPATH\BaseModel.php(525): CodeIgniter\Model->doFind(false, [...])
+ 2 APPPATH\Controllers\Administradores.php(30): CodeIgniter\BaseModel->find([...])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Administradores->validarAdmin()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administradores))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 22:06:04 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 196.
+ 1 SYSTEMPATH\BaseModel.php(525): CodeIgniter\Model->doFind(false, [...])
+ 2 APPPATH\Controllers\Administradores.php(30): CodeIgniter\BaseModel->find([...])
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Administradores->validarAdmin()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administradores))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
